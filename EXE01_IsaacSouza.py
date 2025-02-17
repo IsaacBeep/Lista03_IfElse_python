@@ -10,7 +10,7 @@ if inv == "bx":
 
 elif inv == "al":
     valor = int(input('Qual o valor que voce deseja fazer esse investimento: '))
-    if valor >= 1000:
+    if valor <= 1000:
         print('Recomendamos voce fazer um investimento em ações')
 
     else:
