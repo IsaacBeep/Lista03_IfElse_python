@@ -19,8 +19,9 @@ elif peso >= 79 and peso < 86:
 elif peso >= 86 and peso < 90:
     print('O lutador {} esta na categoria Peso Peso Medio'.format(nome))
 
-elif peso >= 86 and peso < 100:
+elif peso >= 90 and peso < 100:
     print('O lutador {} esta na categoria Peso Peso Meio-Pesado'.format(nome))
 
 elif peso >= 100:
     print('O lutador {} esta na categoria Peso Peso Peso Pesado'.format(nome))
+print('IsaacSouza')
